@@ -4,6 +4,16 @@
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="60dp">
+    <Row>
+        <Key android:codes="-90000001"
+            android:keyLabel="Menu"
+            android:keyWidth="15%p"
+            android:keyEdgeFlags="left"
+            android:isRepeatable="true"/>
+        <Key android:codes="-90000002"
+            android:keyLabel="Open App"
+            android:keyWidth="15%p" />
+    </Row>
 
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
